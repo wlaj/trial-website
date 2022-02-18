@@ -1,5 +1,14 @@
 import { gql } from 'graphql-request'
 
+export const itemsQuery = gql`
+  query GetItems {
+    items {
+      label
+      slug
+    }
+  }
+`
+
 export const authorsQuery = gql`
   query GetAuthors {
     authors {

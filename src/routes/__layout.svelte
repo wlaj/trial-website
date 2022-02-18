@@ -1,7 +1,9 @@
 <script>
-    
-  </script>
-  
-  <main class="">
-    <slot />
-  </main>
+	import Navbar from '$lib/components/navbar.svelte';
+    import '../app.css'
+</script>
+
+<main class="">
+	<Navbar />
+	<slot />
+</main>
